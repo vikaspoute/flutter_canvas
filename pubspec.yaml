@@ -1,0 +1,40 @@
+name: flutter_canvas
+description: A production-grade infinite canvas engine for Flutter. Build whiteboards, design tools, diagram builders, flowcharts, and collaborative workspaces.
+version: 1.0.0
+homepage: https://github.com/fluttercanvas/flutter_canvas
+repository: https://github.com/fluttercanvas/flutter_canvas
+issue_tracker: https://github.com/fluttercanvas/flutter_canvas/issues
+documentation: https://github.com/fluttercanvas/flutter_canvas/wiki
+
+topics:
+  - canvas
+  - whiteboard
+  - drawing
+  - editor
+  - design
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vector_math: ^2.1.4
+  uuid: ^4.4.0
+  meta: ^1.11.0
+  collection: ^1.18.0
+  path: ^1.9.0
+  image: ^4.1.7
+  xml: ^6.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  benchmark_harness: ^2.2.2
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true

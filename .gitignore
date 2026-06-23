@@ -1,0 +1,15 @@
+# https://dart.dev/guides/libraries/private-files
+
+# Mac OS X
+.DS_Store
+
+# Dart/Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+
+# FVM
+.fvm/flutter_sdk
